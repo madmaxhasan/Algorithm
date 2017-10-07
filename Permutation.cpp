@@ -32,3 +32,4 @@ int main()
     permute(4,1);
     return 0;
 }
+
