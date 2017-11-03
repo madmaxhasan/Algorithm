@@ -7,7 +7,7 @@ void BinarySearch(int arr[], int sz, int n)
     int mid = (first + last) / 2;
     while(first <= last)
     {
-        if(arr[mid] < n)
+        if(arr[mid] > n)
         {
             first = mid + 1;
         }
